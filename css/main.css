@@ -7,21 +7,34 @@
   max-width: 700px;
   position: relative;
 }
-.timeline__content-title {
+
+@font-face {
+  font-family: 'GothamCondensed-Ultra';
+  src: url('../fonts/GothamCondensed-Ultra.eot') format('embedded-opentype');
   font-weight: normal;
-  font-size: 66px;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamCondensed-Ultra';
+  src: url('../fonts/GothamCondensed-Ultra.otf') format('opentype');
+}
+
+
+.timeline__content-title {
+  font-family: "GothamCondensed-Ultra" ;
+  font-size: 65px;
   margin: -10px 0 0 0;
   transition: .4s;
   padding: 0 10px;
   box-sizing: border-box;
-  font-family: "Pathway Gothic One", sans-serif;
-  color: #fff;
+  color: #f6e135;
 }
 .timeline__content-desc {
   margin: 0;
   font-size: 15px;
   box-sizing: border-box;
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
   font-family: Cardo;
   font-weight: normal;
   line-height: 25px;
@@ -138,10 +151,9 @@
 }
 .timeline-header__title {
   color: #fff;
-  font-size: 46px;
-  font-family: Cardo;
-  font-weight: normal;
   margin: 0;
+  font-family: "GothamCondensed-Ultra" ;
+  font-size: 70px;
 }
 .timeline-header__subtitle {
   color: rgba(255, 255, 255, 0.5);
